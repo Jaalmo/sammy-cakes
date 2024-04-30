@@ -95,8 +95,8 @@ nav a {
 }
 
 .main-content h1 span {
-    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
-        1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #f000;
+    text-shadow: 3px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+        2px 2px #000, -2px -2px #000, 1px -2px #000, -1px 2px #f000;
     font-size: 64px;
     color: rgb(255, 175, 63);
 }
@@ -110,8 +110,9 @@ nav a {
 }
 
 .main-content h2 span {
-    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
-        1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #f000;
+    text-shadow: 3px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+        2px 2px #000, -2px -2px #000, 1px -2px #000, -1px 2px #f000;
+        letter-spacing: 0.33rem;
     font-size: 52px;
     color: rgb(255, 175, 63);
 }
@@ -165,14 +166,16 @@ footer {
     background-color: #F5debc;
     border-top: 2px solid black;
     height: 30px;
+    padding: 10px;
     bottom: 0;
     width: 100%;
 }
 
 footer h3 {
-    margin: 5px;
+    margin: 0;
     padding: 0;
     font-family: "BodoniModa", Garamond, serif;
-    font-size: 15px;
+    font-weight: 800;
+    font-size: 18px;
     text-align: center;
 }
