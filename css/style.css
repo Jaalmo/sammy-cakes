@@ -112,7 +112,7 @@ nav a {
 .main-content h2 span {
     text-shadow: 3px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
         2px 2px #000, -2px -2px #000, 1px -2px #000, -1px 2px #f000;
-        letter-spacing: 0.33rem;
+    letter-spacing: 0.33rem;
     font-size: 52px;
     color: rgb(255, 175, 63);
 }
@@ -122,6 +122,9 @@ nav a {
     padding-right: 10%;
     font-family: "Sedan", Garamond, serif;
     font-style: italic;
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.25px;
     font-weight: 500;
     font-size: 30px;
     word-spacing: 0.1rem;
