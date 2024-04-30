@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "BodoniModa";
+    src: url('../fonts/BodoniModa-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+
 html,
 body {
     margin: 0;
@@ -84,13 +89,14 @@ nav a {
 .main-content h1 {
     padding-left: 2%;
     padding-right: 10%;
-    font-family: "Sedan";
+    font-family: "Sedan", Garamond, serif;
     font-size: 48px;
     word-spacing: 0.1rem;
 }
 
 .main-content h1 span {
-    -webkit-text-stroke: 0.005rem black;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+        1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #f000;
     font-size: 64px;
     color: rgb(255, 175, 63);
 }
@@ -98,13 +104,14 @@ nav a {
 .main-content h2 {
     padding-left: 2%;
     padding-right: 10%;
-    font-family: "Sedan";
+    font-family: "Sedan", Garamond, serif;
     font-size: 36px;
     word-spacing: 0.1rem;
 }
 
 .main-content h2 span {
-    -webkit-text-stroke: 0.005rem black;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+        1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #f000;
     font-size: 52px;
     color: rgb(255, 175, 63);
 }
@@ -112,7 +119,7 @@ nav a {
 .main-content .news-headline {
     padding-left: 2%;
     padding-right: 10%;
-    font-family: "Sedan";
+    font-family: "Sedan", Garamond, serif;
     font-style: italic;
     font-weight: 500;
     font-size: 30px;
@@ -122,7 +129,7 @@ nav a {
 .main-content p {
     padding-left: 2%;
     padding-right: 10%;
-    font-family: "Lora";
+    font-family: "Lora", Garamond, serif;
     word-spacing: 0.2rem;
     line-height: 1.4;
     font-size: 20px;
@@ -165,7 +172,7 @@ footer {
 footer h3 {
     margin: 5px;
     padding: 0;
-    font-family: Garamond;
+    font-family: "BodoniModa", Garamond, serif;
     font-size: 15px;
     text-align: center;
 }
