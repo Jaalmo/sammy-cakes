@@ -77,12 +77,11 @@ nav a {
 }
 
 .main-content {
-    position: fixed;
+    position: relative;
     top: 145px;
     width: 100%;
     bottom: 30px;
     overflow-x: hidden;
-    overflow-y: scroll;
     background-color: #fff5e7;
 }
 
@@ -162,23 +161,37 @@ nav a {
     border-radius: 7px;
 }
 
-/* Still want to make it so it stays at the bottom but not fixed */
-
 footer {
-    position: fixed;
+    position: relative;
     background-color: #F5debc;
-    border-top: 2px solid black;
-    height: 30px;
-    padding: 10px;
-    bottom: 0;
+    border-top: 1px solid black;
+    height: 15px;
+    padding: 15px;
     width: 100%;
 }
 
 footer h3 {
     margin: 0;
     padding: 0;
-    font-family: "BodoniModa", Garamond, serif;
-    font-weight: 800;
-    font-size: 18px;
+    font-family: Garamond, serif;
+    font-weight: 600;
+    font-size:18px;
     text-align: center;
 }
+
+/*
+
+body::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #F5debc;  
+    border-left: 1px solid rgb(0, 0, 0); 
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(65, 65, 65, 0.311);
+  }
+
+  */
